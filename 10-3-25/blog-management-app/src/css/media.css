@@ -1,0 +1,321 @@
+@media (min-width: 480px) and (max-width: 720px) {
+    body {
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-left: 10px;
+    }
+    .header {
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: 0%;
+        box-shadow: none;
+      }
+      .header .header-actions {
+        gap: 5px;
+        flex-wrap: wrap;
+      }
+      .auth-buttons
+      {
+        display: flex;
+      }
+      .search-bar.active {
+        width: 240px;
+      }
+      .btn-1, .btn-2, .btn-3 {
+        font-size: 14px;
+        padding: 8px;
+        border-radius: 15px;
+      }
+      .login-form {
+        width: 90%;
+        margin-left: 5%;
+        padding: 20px;
+      }
+      .login-form input {
+        width: 100%;
+        font-size: 14px;
+      }
+      .login-form button {
+        width: 40%;
+      }
+      .creatmain {
+        height: 100vh;
+        padding: 20px;
+        display: block;
+      }
+      .create-post-container {
+        width: 90%;
+        padding: 20px;
+        margin-top: 8%;
+        margin-left: 5%;
+      }
+      .create-post-form input,
+      .create-post-form textarea {
+        font-size: 14px;
+      }
+      .edit-post-page {
+        padding: 10px;
+        display: block;
+      }
+      .wrapper {
+        width: 90%;
+        padding: 20px;
+        margin-top: 8%;
+        margin-left: 5%;
+      }
+      .input-field {
+        font-size: 14px;
+      }
+      .viewpost {
+        height: 100vh;
+        padding: 20px;
+        display: block;
+      }
+      .postviewarea {
+        height: auto;
+        padding: 15px;
+        border-radius: 20px;
+        width: 400px;
+      }
+      .viewimg {
+        height: 180px;
+      }
+      .post-list {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        gap: 15px;
+        padding: 10px;
+      }
+      .accordion-slider {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px !important;
+
+      }
+      .accordion-slide {
+        height: 300px;
+        min-width: 100%;
+      }
+      .post-image {
+        height: 200px;
+      }
+      .btn-4, .btn-5, .btn-6, .btn-7 {
+        font-size: 14px;
+        padding: 6px 10px;
+      }
+      .dots-navigation {
+        margin-top: 10px;
+      }
+      .dot {
+        width: 8px;
+        height: 8px;
+      } 
+      .menu-toggle
+      {
+        display: block;
+      } 
+}
+
+@media (min-width: 318px) and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+    h1 {
+      font-size: 1.3rem;
+      margin-left: 5px;
+      text-align: center;
+    }
+    .header {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        box-shadow: none !important;
+      }
+      .header .header-actions {
+        display: flex;
+        justify-content: center;
+      }
+      .auth-buttons
+      {
+        display: flex;
+      }
+      .search-bar.active {
+        width: 180px;
+      }
+    .btn-1, .btn-2, .btn-3 {
+        font-size: 12px;
+        padding: 6px;
+        border-radius: 12px;
+    }
+    .login-form {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 15px;
+    }
+    .login-form input {
+        width: 100%;
+        font-size: 12px;
+    }
+    .login-form button {
+        width: 50%;
+    }
+    .creatmain {
+        height: 100vh;
+        padding: 15px;
+        display: block;
+    }
+    .create-post-container {
+        width: 95%;
+        padding: 15px;
+        margin-top: 5%;
+        margin-left: 2.5%;
+    }
+    .create-post-container h2
+    {
+          font-size: 23px;
+    }
+    .create-post-form input,
+    .create-post-form textarea {
+        font-size: 12px;
+    }
+    .edit-post-page {
+        padding: 8px;
+        display: block;
+    }
+    .wrapper {
+        width: 95%;
+        padding: 15px;
+        margin-top: 5%;
+        margin-left: 2.5%;
+    }
+    .input-field {
+        font-size: 12px;
+    }
+    .viewpost {
+        height: 100vh;
+        padding: 15px;
+        display: block;
+    }
+    .postviewarea {
+        height: auto;
+        padding: 12px;
+        border-radius: 15px;
+        width: 100%;
+    }
+    .viewimg {
+        height: 150px;
+    }
+    .post-list {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        gap: 10px;
+        padding: 8px;
+    }
+    .accordion-slider {
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px !important;
+    }
+    .accordion-slide {
+        height: 250px;
+        min-width: 100%;
+    }
+    .post-image {
+        height: 180px;
+    }
+    .btn-4, .btn-5, .btn-6, .btn-7 {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    .dots-navigation {
+        margin-top: 8px;
+    }
+    .dot {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+
+/* Show nav menu on larger screens */
+@media screen and (min-width: 721px) {
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .menu-toggle {
+    display: none; /* Hide the menu bar */
+  }
+}
+
+/* Show hamburger menu for smaller screens */
+@media screen and (max-width: 720px) {
+    .menu-toggle {
+      display: block;
+      background: none;
+      border: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: var(--text);
+    }
+    .nav-menu.open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100vw;
+      background: rgba(0, 0, 0, 0.55); /* Dark semi-transparent background */
+      border-radius: 0;
+      padding: 15px;
+      backdrop-filter: blur(10px); /* Blurry glass effect */
+      z-index: 100;
+    }
+    .auth-buttons
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-menu .header-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav-menu .btn-1
+    {
+      width: 100%;
+      text-align: center;
+      padding: 12px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .nav-menu .btn-2
+    {
+      font-size: 14px;
+      border-radius: 25px;
+      font-weight: bold;
+      width: 100%;
+      margin-left: -3px;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    .nav-menu .btn-3 {
+      width: 90%; /* Adjust width as needed */
+      max-width: 85px; /* Prevents overly wide buttons */
+      padding: 8px;
+      border-radius: 25px;
+      margin-left: -5px;
+      font-size: 12px;
+    }
+    .search-icon {
+      color: palevioletred !important;
+    }
+}

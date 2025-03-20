@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>chain example</title>
+        <style>
+            .form-container
+            {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 270px;
+                transform: translate(-50%, 50%);
+            }
+            svg{
+                width: 1000px;
+                pointer-events: none;
+            }
+            .form-container .form-row
+            {
+                width: 100%;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            .form-container .form-row input
+            {
+                width: 100%;
+                height: 10px;
+                margin: 0;
+                padding: 5px;
+                outline: none;
+                border: 3px solid #dddddd;
+            }
+            .form-container .form-row input.valid
+            {
+                border-color: #000000;
+            }
+            .form-container .form-row input[type='checkbox']
+            {
+                width: 20px;
+                height: 20px;
+                margin: 0 10px 0 0;
+                padding: 0;
+                border: 2px solid #dddddd;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form-container">
+            <label class="form-row"></label>
+            <label class="form-row"></label>
+            <label class="form-row">
+                <input type="checkbox" id="suscribe-btn" name="suscribe">
+            </label>
+            <div class="form-row">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+
+        <script>
+            function layoutoperation() {
+                gsap.set(pullSystemContainer, {
+                    x: 375,
+                    y: 646
+                })
+                gsap.set(sprayHandContainer, {
+                    x: 700,
+                    y: 621
+                })
+                gsap.set(sprayer, {
+                    x: -59.5,
+                    y: 53
+                })
+                gsap.set(carContainer, {
+                    x: 190,
+                    y: 802
+                })
+                gsap.set(scalesContainer, {
+                    x: 170,
+                    y: 710
+                })
+                gsap.set(grabbinHand, {
+                    x: 297,
+                    y: 830
+                })
+            }
+        </script>
+    </body>
+</html>
