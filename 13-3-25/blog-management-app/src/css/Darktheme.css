@@ -1,0 +1,57 @@
+/* dark mode */
+[data-theme="dark"] {
+    --bg: #272727;
+    --primary: #0A84FF;
+    --primary-gradient: linear-gradient(45deg, #5E9EFF, #4B7BC2);
+    --secondary-gradient: linear-gradient(45deg, #f43636, #8B1B1B);
+    --create: linear-gradient(45deg, #F78DA7, #E94560);
+    --secondary: #868E96;
+    --text: #E0E0E0;
+    --card-bg: #fff;
+    --border: #333;
+}
+[data-theme="dark"] .header {
+  box-shadow: 0px 2px 12px rgba(250, 248, 248, 0.644); 
+}
+[data-theme="dark"] .search-bar::placeholder{
+  color: yellow;
+}
+[data-theme="dark"] .creatmain {
+  background: linear-gradient(270deg, rgb(45, 45, 45), #222831, #30475e, #121212);
+  background-size: 400% 400%;
+  animation: colorChangeDark 12s ease infinite; 
+}
+@keyframes colorChangeDark {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 50% 100%; }
+  50% { background-position: 100% 50%; }
+  75% { background-position: 50% 0%; }  
+  100% { background-position: 0% 50%; }
+}
+[data-theme="dark"] .create-post-container h2,
+.edit-post-container h2,
+.viewpost h2,
+.viewpost p,
+.post-item h2,
+.post-item p,
+.input-group label {
+  color: #000 !important;
+  margin-top: 5px;
+}
+[data-theme='dark'] .edit-post-page{
+  background-image: url("https://wallpapersok.com/images/high/dark-theme-series-of-lamp-posts-at-night-pvuig3w43zh2d1g1.jpg");
+}
+[data-theme='dark'] .viewpost{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLlPkAFPW3c-xHUy7lE6dvjj1qKFZIft-Vw&s");
+}
+[data-theme='dark'] .postviewarea{
+  background-color: #fff;
+}
+[data-theme='dark'] .btn-7{
+  background-color: var(--bg);
+}
+[data-theme='dark'] .info-message{
+  color: #8B1B1B;
+  margin-top: 5px;
+  font-size: 14px;
+}

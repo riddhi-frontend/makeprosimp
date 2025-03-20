@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456"
+    }
+  ],
+  "posts": [
+    {
+      "id": "2fdb",
+      "title": "WDEFG",
+      "content": "IESBAJKL;",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s",
+      "author": "OUYFHEGVJKLW;",
+      "likes": 26,
+      "createdAt": "2025-03-11T13:00:34.474Z"
+    },
+    {
+      "id": "063f",
+      "title": "dw;iwyughBN",
+      "content": "JKGWERNBM",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s",
+      "author": "IRHJE",
+      "likes": 2,
+      "createdAt": "2025-03-13T09:05:07.932Z"
+    },
+    {
+      "id": "a67f",
+      "title": "WELUKTGQHWB",
+      "content": "IOHURBEMAWN",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s",
+      "author": "ERUHGFBEDN",
+      "likes": 1,
+      "createdAt": "2025-03-13T09:05:23.901Z"
+    },
+    {
+      "id": "d58a",
+      "title": "esrfeu yrghb",
+      "content": "uitrehgbdfnsm `",
+      "image": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg",
+      "author": "urthegfdnvcoi",
+      "likes": 1,
+      "createdAt": "2025-03-15T05:43:25.483Z"
+    },
+    {
+      "id": "a67f",
+      "title": "WELUKTGQHWB",
+      "content": "IOHURBEMAWN",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s",
+      "author": "ERUHGFBEDN",
+      "likes": 0,
+      "createdAt": "2025-03-13T09:05:23.901Z"
+    },
+    {
+      "id": "de80",
+      "title": "EHDG",
+      "content": "JHHGDFBN",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s",
+      "author": "KJHGFJH",
+      "likes": 0,
+      "createdAt": "2025-03-13T09:05:39.000Z"
+    }
+  ]
+}
